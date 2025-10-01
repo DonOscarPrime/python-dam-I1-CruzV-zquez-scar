@@ -1,0 +1,9 @@
+Hazme un código para Python el cual cumpla con las siguientes funciones :pedir nombre y edad nacimiento, 
+un método llamado edadClasificar que clasifique las edades en los siguientes tramos , menos de 18 años niño,
+de 18 a 65 adulto y de mas de 65 anciano , añade un manejo de errores en caso de que el usuario no meta un numero y ponme comentarios.
+
+Segundo pront :# Ejecutamos el programa if __name__ == "__main__": main() , ¿esto que es ?, 
+¿ no es suficiente con darle al boton del play para que el codigo se ejecute ?
+
+Respuesta: 👉 En resumen: sí, puedes darle a “play” sin esa línea y funcionará.
+Pero se recomienda dejarla porque es una buena práctica en Python para programas reutilizables.
