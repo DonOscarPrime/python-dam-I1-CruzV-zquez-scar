@@ -1,0 +1,16 @@
+El primer prom que he puesto es el siguiente:Quiero que hagas una serie de códigos que hagan lo siguiente código en Python ,
+el primero llamado lista_numeros.py, pide una lista de números separados por comas, el segundo, llamado temperaturas.py, 
+es un conversor de temperaturas de grados a kelvin o a  Fahrenheit, el tercero llamado cadenas.py es un programa que reciba una cadena y cuente las vocales que  tiene,
+las consonantes, las mayúsculas y el número de caracteres y el cuarto , primo.py, es un programa que reciba un número y nos diga si es primo o no. Dame los códigos separados.
+
+Segundo proms: explicame esto vocales = "aeiouAEIOU" num_vocales = sum(1 for c in texto if c in vocales) num_consonantes = sum(1 for c in texto if c.isalpha() and c not in vocales)
+num_mayusculas = sum(1 for c in texto if c.isupper()) num_caracteres = len(texto)
+
+Tercer proms: explicame esto lista_numeros.py numeros = [float(x.strip()) for x in entrada.split(",") if x.strip() != ""] 
+print(f"\nLista de números: {numeros}") print(f"Suma: {sum(numeros)}") print(f"Promedio: {sum(numeros)/len(numeros):.2f}")
+
+
+
+
+
+
