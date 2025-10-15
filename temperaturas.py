@@ -12,12 +12,15 @@ def main():
     print("¿A qué unidad deseas convertir?")
     print("1. Kelvin")
     print("2. Fahrenheit")
-    opcion = input("Elige una opción (1 o 2): ")
+    print("3. Ambas")   # <-- mejora añadida
+    opcion = input("Elige una opción (1, 2 o 3): ")
 
     if opcion == "1":
         print(f"{celsius} °C = {celsius_a_kelvin(celsius):.2f} K")
     elif opcion == "2":
         print(f"{celsius} °C = {celsius_a_fahrenheit(celsius):.2f} °F")
+    elif opcion == "3":  # <-- nueva funcionalidad
+        print(f"{celsius} °C = {celsius_a_kelvin(celsius):.2f} K = {celsius_a_fahrenheit(celsius):.2f} °F")
     else:
         print("Opción no válida.")
 
